@@ -8,6 +8,7 @@ public class HelloWorld {
 
 	@GetMapping("/")
 	public String hello() {
+		System.out.println("Added new Line");
 		return "Hello World";
 	}
 }
